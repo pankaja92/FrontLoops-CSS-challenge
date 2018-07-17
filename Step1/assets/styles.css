@@ -8,6 +8,18 @@ body {
     flex-direction: row;
 }
 
+@media only screen and (max-width: 890px) {
+    .container {  
+        overflow:hidden;  
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .box {
+        padding: 20px 0;
+    }
+}
+
 img {
     height: 50px;
 }
@@ -21,7 +33,7 @@ img {
     justify-content:space-around;
     background-color: white;
     width: 60%;
-    height: 300px;
+    /* height: 300px; */
 }
 
 h3 {
@@ -42,6 +54,7 @@ h3 {
 }
 
 .box {
+    padding: 30px;
     width: 33.33%;
 }
 
